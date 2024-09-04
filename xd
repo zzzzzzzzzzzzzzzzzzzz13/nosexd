@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amor</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+        }
+        .card {
+            background-color: #ffebcd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .card h1 {
+            color: #e63946;
+        }
+        .card p {
+            font-size: 18px;
+            color: #333;
+        }
+        .card .signature {
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Para mi amor</h1>
+        <p>
+            Eres la persona que ilumina mis días y llena mi vida de felicidad. 
+            No puedo imaginar un solo momento sin ti, y cada día contigo es un nuevo regalo.
+            Te amo más de lo que las palabras pueden expresar.
+        </p>
+        <p class="signature">Con amor, [Tu Nombre]</p>
+    </div>
+</body>
+</html>
